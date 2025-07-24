@@ -60,10 +60,11 @@ if (!isset($_SESSION["username"])) {
 </head>
 <body>
     <div class="profile-card">
-        <img src="<?php echo $_SESSION['image']; ?>" alt="Profile">
+<img src="<?php echo $_SESSION['image']; ?>" alt="Profile">
+
         <h2><?php echo $_SESSION['username']; ?></h2>
         <p>Email: <?php echo $_SESSION['email']; ?></p>
-        <p>Room: <?php echo $_SESSION['room']; ?></p>
+        
         <a href="logout.php">Logout</a>
     </div>
 </body>

@@ -86,15 +86,14 @@
         <label>Password</label>
         <input type="password" name="password" required>
 
-       
+        
+
         <label>Profile Picture</label>
         <input type="file" name="profile" accept="image/*" required>
 
         <input type="submit" value="Register">
 
-        <div class="note">
-            Already have an account? <a href="login.php">Login here</a>
-        </div>
+
     </form>
 </body>
 </html>

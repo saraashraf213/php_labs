@@ -10,7 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if ($u === $username && $p === $password) {
             $_SESSION["username"] = $u;
             $_SESSION["email"] = $e;
-            $_SESSION["room"] = $r;
+          
             $_SESSION["image"] = $img;
             header("Location: profile.php");
             exit;
