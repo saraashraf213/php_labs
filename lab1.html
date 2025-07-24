@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration</title>
+</head>
+<body>
+  <h2>Register</h2>
+  <form action="save.php" method="POST">
+    First Name: <input type="text" name="fname"><br><br>
+    Last Name: <input type="text" name="lname"><br><br>
+    Address: <input type="text" name="address"><br><br>
+    
+    Gender:
+    <input type="radio" name="gender" value="Mr."> Male
+    <input type="radio" name="gender" value="Miss"> Female<br><br>
+    
+    Country:
+    <select name="country">
+      <option value="Egypt">Egypt</option>
+      <option value="KSA">KSA</option>
+    </select><br><br>
+
+    Skills:<br>
+    <input type="checkbox" name="skills[]" value="HTML"> HTML<br>
+    <input type="checkbox" name="skills[]" value="CSS"> CSS<br>
+    <input type="checkbox" name="skills[]" value="PHP"> PHP<br><br>
+
+    Department: <input type="text" name="department"><br><br>
+
+    <input type="submit" value="Register">
+  </form>
+</body>
+</html>
